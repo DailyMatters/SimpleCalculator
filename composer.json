@@ -1,0 +1,21 @@
+{
+    "name": "package/example",
+    "description": "Creating a psr-4 package example.",
+    "license": "MIT",
+    "keywords": ["psr-4, php"],
+    "authors": [
+        {
+            "name": "Claudio Ribeiro",
+            "email": "claudio.santos.ribeiro@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "package\\Example\\": "src"
+        }
+    }
+}
