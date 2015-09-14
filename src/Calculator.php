@@ -4,6 +4,9 @@ namespace package\Calculator;
 
 class Calculator{
 
+	/**
+	* BASIC OPERATIONS
+	*/
 	public function add( $a1, $a2 ){
 		return $a1 + $a2;
 	}
