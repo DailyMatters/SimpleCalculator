@@ -17,6 +17,11 @@ class Calculator{
 	}
 
 	public function divide( $a1, $a2 ){
+
+		if( $a2 === 0 ){
+			return false;
+		}
+
 		return $a1 / $a2;
 	}
 
