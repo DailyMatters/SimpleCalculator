@@ -28,4 +28,12 @@ class Calculator{
 		return $a1 / $a2;
 	}
 
+	/*
+	* PERCENTAGE
+	*/
+	public function percentage( $a1, $a2 ){
+		//This will return $a1 percent of $a2
+		return ( $a1 / $a2 ) * 100;
+	}
+
 }

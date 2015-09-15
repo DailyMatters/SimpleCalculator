@@ -36,7 +36,13 @@ class CalculatorTest extends PHPUnit_Framework_TestCase {
   {
     $calculator = new Calculator();
     $result = $calculator->divide( 6, 0 );
-    $this->assertEquals( $result, false );
+    $this->assertFalse( $result );
+  }
+
+  public function testPercentage(){
+    $calculator = new Calculator();
+    $result = $calculator->percentage( 2, 50 );
+    $this->assertEquals( $result, 4 );
   }
  
 }
