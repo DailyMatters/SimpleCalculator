@@ -36,4 +36,32 @@ class Calculator{
 		return ( $a1 / $a2 ) * 100;
 	}
 
+	/*
+	* TRIGONOMETRIC FUNCTIONS
+	*/
+	public function cos( $a ){
+		return cos( $a );
+	}
+
+	public function sin( $a ){
+		return sin( $a );
+	}
+
+	public function tan( $a ){
+		return tan( $a );
+	}
+
+	//Returns the value of pi
+	public function pi(){
+		return pi();
+	}
+
+	/*
+	* LOGARITHMIC
+	*/
+	public function log( $a ){
+		//Returns the basic logarithm in base 10
+		return log10( $a );
+	}
+
 }

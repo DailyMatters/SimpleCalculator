@@ -44,5 +44,17 @@ class CalculatorTest extends PHPUnit_Framework_TestCase {
     $result = $calculator->percentage( 2, 50 );
     $this->assertEquals( $result, 4 );
   }
+
+  public function testPi(){
+    $calculator = new Calculator();
+    $result = $calculator->pi();
+    $this->assertEquals( $result, pi() );
+  }
+
+  public function testLog(){
+    $calculator = new Calculator();
+    $result = $calculator->log(10);
+    $this->assertEquals( $result, 1 );
+  }
  
 }

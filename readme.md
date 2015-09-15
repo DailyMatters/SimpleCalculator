@@ -9,6 +9,8 @@ For this example the following concepts ( technologies ) were used:
 
 With these resources you can create a php psr-4 package ready to be deployed on github or packagist.
 
+Currently calculates the basic operations, percentage, basic trigonometric functions, pi value and base 10 logarithm.
+
 Best regards,
 
 Cláudio Ribeiro
