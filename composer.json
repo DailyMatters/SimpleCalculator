@@ -13,9 +13,10 @@
     "require-dev": {
         "phpunit/phpunit": "4.0.*"
     },
-    "autoload": {
-        "psr-4": [
-            "package\\Calculator\\": "src"
-        ]
-    }
+   "autoload": {
+            "psr-4": {},
+            "classmap": [
+                "package\\Calculator\\": "src"
+            ]
+        },
 }
