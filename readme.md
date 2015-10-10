@@ -7,6 +7,7 @@ For this example the following concepts ( technologies ) were used:
 - Composer
 - Git
 - Travis CI
+- Scrutinizer
 - phpunit
 
 With these resources you can create a php psr-4 package ready to be deployed on github or packagist.
